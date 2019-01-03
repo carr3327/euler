@@ -1,6 +1,7 @@
 import math
 from math import sqrt
 
+
 def test(x):
 	sol = 0
 	for a in range(2,int(x/2)):
