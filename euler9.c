@@ -7,15 +7,16 @@ int main()
 	//x = r + s
 	//y = r + t
 	//z = r + s + t 
-	size_t s,r,t,tt,x,y,z;
+	//r2 = (r**2)/2
+	size_t s,r,t,r2,x,y,z;
 	for( r = 2; r < 1000; r+=2)
 	{
-		tt = (pow(r,2))/2; 
-		for ( s = 1; s <sqrt(tt); s++)
+		r2 = (pow(r,2))/2; 
+		for ( s = 1; s <sqrt(r2); s++)
 		{
-			if ( tt % s == 0)
+			if ( r2 % s == 0)
 			{
-				t = tt / s;
+				t = r2 / s;
 				x = r + s;
 				y = r + t;
 				z = r + s + t;
