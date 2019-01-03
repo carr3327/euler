@@ -22,7 +22,6 @@ x = [1,2,3,4,5,6,7,8,9,0]
 for p in permutations(x):
 	y = ''.join(str(n) for n in p)
 	if is_div(y) == 1:
-		sum += int(y)
 		print(y,sum)
 print(sum)
 
