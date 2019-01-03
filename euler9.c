@@ -3,6 +3,10 @@
 
 int main()
 {
+	//Using Dickson's methon for generating Pythagorean triples
+	//x = r + s
+	//y = r + t
+	//z = r + s + t 
 	size_t s,r,t,tt,x,y,z;
 	for( r = 2; r < 1000; r+=2)
 	{
