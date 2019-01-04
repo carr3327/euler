@@ -1,1 +1,1 @@
-These files are provided to show a minimal knowlege in python, ruby, and c 
+These files are provided to show a baseline knowlege in python, ruby, and c 
